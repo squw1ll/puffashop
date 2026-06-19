@@ -1,6 +1,6 @@
 from telebot import TeleBot, types
 
-bot = TeleBot("BOT_TOKEN")
+bot = TeleBot(os.environ["BOT_TOKEN"])
 MINI_APP_URL = "https://puffashop.netlify.app"  # реальный HTTPS-адрес твоего веб-приложения
 MANAGER = "https://t.me/seeftf"
 
