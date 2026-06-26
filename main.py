@@ -9,7 +9,7 @@ MANAGER = "https://t.me/seeftf"
 # Путь к файлу хранения данных пользователей
 USERS_FILE = "users_data.json"
 
-# ─── Утилиты для хранения данных ────────────────────────────────────────────
+
 
 def load_users() -> dict:
     if os.path.exists(USERS_FILE):
